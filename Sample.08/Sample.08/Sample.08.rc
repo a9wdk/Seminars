@@ -1,0 +1,179 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// русский resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 22, 17, 190, 164
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About this sample"
+FONT 8, "System", 0, 0, 0x0
+BEGIN
+    ICON            IDI_CppSample,IDC_MYICON,14,9,20,20
+    LTEXT           "LDK API v____________",IDC_STATIC_API,49,10,93,8,SS_NOPREFIX
+    LTEXT           "Copyright SU (C) 2013",IDC_STATIC,49,20,90,8
+    DEFPUSHBUTTON   "OK",IDOK,151,7,30,27,WS_GROUP
+    LTEXT           "Пример реализации высокоэшелонированной самовосстанавливающейся защиты. Первый эшелон - обычная работа с ключом. Второй эшелон - редкие проверки CRC нескольких контрольных участков кода/данных, сбор статистики о состоянии первого",IDC_STATIC,6,47,179,41
+    LTEXT           "эшелона. В случае необходимости производится триггерная активация третьего эшелона защиты, который восстановит разрушенный код. Тригером является наличие/отсутствие определенного файла в одном каталоге с защищенным приложением.",IDC_STATIC,5,87,179,43
+    LTEXT           "Управление третий эшелон получает через меха- низм TLS_Callback, что позволяет восстановить разрушенный код еще до передачи управления на точку входа защищенного приложения.",IDC_STATIC,5,127,178,35
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "Cpp Sample 8 - Пример реализации высокоэшелонированной самовосстанавливающейся защиты"
+    IDC_CppSample           "CppSample"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_F1Start             "Start Function1"
+    IDM_F1Stop              "Stop Function1"
+    IDM_F2Start             "Start Function2"
+    IDM_F2Stop              "Stop Function2"
+END
+
+#endif    // русский resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// английский (США) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_CppSample           ICON                    "LDK.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_CppSample MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "Function&1"
+    BEGIN
+        MENUITEM "&Start",                      IDM_F1Start
+        MENUITEM "Sto&p",                       IDM_F1Stop, GRAYED
+    END
+    POPUP "Function&2"
+    BEGIN
+        MENUITEM "&Start",                      IDM_F2Start
+        MENUITEM "Sto&p",                       IDM_F2Stop, GRAYED
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About ...",                  IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_CppSample ACCELERATORS 
+BEGIN
+    "/",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+    "?",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+END
+
+#endif    // английский (США) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,10 @@
+D:\_Seminar\Sample.NET\Debug\Sample.NET.exe.config
+D:\_Seminar\Sample.NET\Debug\Sample.NET.exe
+D:\_Seminar\Sample.NET\Debug\Sample.NET.pdb
+D:\_Seminar\Sample.NET\Sample.NET\obj\Debug\ResolveAssemblyReference.cache
+D:\_Seminar\Sample.NET\Sample.NET\obj\Debug\Test_sample.AboutBox.resources
+D:\_Seminar\Sample.NET\Sample.NET\obj\Debug\Test_sample.MainForm.resources
+D:\_Seminar\Sample.NET\Sample.NET\obj\Debug\Test_Sample.Properties.Resources.resources
+D:\_Seminar\Sample.NET\Sample.NET\obj\Debug\Sample.NET.csproj.GenerateResource.Cache
+D:\_Seminar\Sample.NET\Sample.NET\obj\Debug\Sample.NET.exe
+D:\_Seminar\Sample.NET\Sample.NET\obj\Debug\Sample.NET.pdb

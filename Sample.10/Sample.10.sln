@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample.10", "Sample.10\Sample.10.vcproj", "{607EABA4-3247-459D-926E-E3AA74EE4262}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F0BFD59F-3019-47F0-8881-21915FD44E71} = {F0BFD59F-3019-47F0-8881-21915FD44E71}
+		{ED75D6D8-0052-4A6C-9401-4BBF99BCE4E4} = {ED75D6D8-0052-4A6C-9401-4BBF99BCE4E4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataEncrypt", "..\Post-Build Utilites\DataEncrypt\DataEncrypt.vcproj", "{ED75D6D8-0052-4A6C-9401-4BBF99BCE4E4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodeEncrypt", "..\Post-Build Utilites\CodeEncrypt\CodeEncrypt.vcproj", "{F0BFD59F-3019-47F0-8881-21915FD44E71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{607EABA4-3247-459D-926E-E3AA74EE4262}.Debug|Win32.ActiveCfg = Debug|Win32
+		{607EABA4-3247-459D-926E-E3AA74EE4262}.Debug|Win32.Build.0 = Debug|Win32
+		{607EABA4-3247-459D-926E-E3AA74EE4262}.Release|Win32.ActiveCfg = Release|Win32
+		{607EABA4-3247-459D-926E-E3AA74EE4262}.Release|Win32.Build.0 = Release|Win32
+		{ED75D6D8-0052-4A6C-9401-4BBF99BCE4E4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED75D6D8-0052-4A6C-9401-4BBF99BCE4E4}.Debug|Win32.Build.0 = Debug|Win32
+		{ED75D6D8-0052-4A6C-9401-4BBF99BCE4E4}.Release|Win32.ActiveCfg = Release|Win32
+		{ED75D6D8-0052-4A6C-9401-4BBF99BCE4E4}.Release|Win32.Build.0 = Release|Win32
+		{F0BFD59F-3019-47F0-8881-21915FD44E71}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F0BFD59F-3019-47F0-8881-21915FD44E71}.Debug|Win32.Build.0 = Debug|Win32
+		{F0BFD59F-3019-47F0-8881-21915FD44E71}.Release|Win32.ActiveCfg = Release|Win32
+		{F0BFD59F-3019-47F0-8881-21915FD44E71}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

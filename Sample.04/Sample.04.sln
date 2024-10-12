@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample.04", "Sample.04\Sample.04.vcproj", "{F1BAB381-92C8-43C3-A458-2CD9EEBD7E47}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ED75D6D8-0052-4A6C-9401-4BBF99BCE4E4} = {ED75D6D8-0052-4A6C-9401-4BBF99BCE4E4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataEncrypt", "..\Post-Build Utilites\DataEncrypt\DataEncrypt.vcproj", "{ED75D6D8-0052-4A6C-9401-4BBF99BCE4E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1BAB381-92C8-43C3-A458-2CD9EEBD7E47}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1BAB381-92C8-43C3-A458-2CD9EEBD7E47}.Debug|Win32.Build.0 = Debug|Win32
+		{F1BAB381-92C8-43C3-A458-2CD9EEBD7E47}.Release|Win32.ActiveCfg = Release|Win32
+		{F1BAB381-92C8-43C3-A458-2CD9EEBD7E47}.Release|Win32.Build.0 = Release|Win32
+		{ED75D6D8-0052-4A6C-9401-4BBF99BCE4E4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED75D6D8-0052-4A6C-9401-4BBF99BCE4E4}.Debug|Win32.Build.0 = Debug|Win32
+		{ED75D6D8-0052-4A6C-9401-4BBF99BCE4E4}.Release|Win32.ActiveCfg = Release|Win32
+		{ED75D6D8-0052-4A6C-9401-4BBF99BCE4E4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
